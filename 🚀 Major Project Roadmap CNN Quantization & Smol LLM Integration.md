@@ -85,7 +85,7 @@ graph TD;
     - Use Obsidian’s embedded diagrams to sketch your network architecture visually.
 - **Diagram:**
     - **CNN Architecture Diagram:**
-        - [Input → Conv + ReLU → Pool → Conv + ReLU → Pool → Flatten → FC → Output
+        - Input → Conv + ReLU → Pool → Conv + ReLU → Pool → Flatten → FC → Output
 
 ### 3. **GPU Training & Mixed Precision (FP16)**
 
@@ -171,18 +171,3 @@ graph TD;
 - **Interactive Tools:**
     - Use [Mermaid Live Editor](https://mermaid.live/) to edit and visualize diagrams.
     - Use [Excalidraw](https://excalidraw.com/) for hand-drawn style sketches.
-
----
-
-## 🎯 Final Tips & Thoughts
-
-- **Iterate and Experiment:**  
-    Keep a detailed lab notebook in Obsidian. Use tags like `#experiment`, `#todo`, and `#results` to track your progress.
-- **Collaboration:**  
-    If working in a team, consider using shared Obsidian vaults or Git repositories for seamless collaboration.
-- **Stay Updated:**  
-    Follow relevant blogs and forums to keep up with the latest advances in quantization and model compression.
-
----
-
-Enjoy your journey through this exciting project! Remember, every experiment is a step toward understanding and innovation. Happy building! 🚀✨
