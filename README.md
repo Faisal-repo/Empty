@@ -11,14 +11,32 @@
 ## 🚀 Current Progress (Updated: 06/02/2025)
 
 ```mermaid
-graph TD;
-    A[Project Start] --> B[✔️ Environment Setup];
-    B --> C[✔️ Baseline CNN];
-    C --> D[✔️ FP16 Training];
-    D --> E[✔️ QAT Implementation];
-    E --> F[🔄 Few/Zero-Shot Learning];
-    F --> G[❌ Knowledge Distillation];
-    G --> H[❌ Smol LLM];
+flowchart LR
+    subgraph Step1
+        A["✔️Project Start"] --> B("✔️ Environment Setup")
+    end
+
+    subgraph Step2
+        direction TB
+        B --> C["✔️ Baseline CNN"]
+        C --> D(["✔️ FP16 Training"])
+    end
+
+    subgraph Step3
+        direction LR
+        E --> F[("✔️ Hardware-Aware<br>Quantization")]
+    end
+
+    subgraph Step4
+        direction TB
+        F --> G{"🔄 Knowledge<br>Distillation"}
+        G --> H{{"🔄 Few/Zero-Shot<br>Learning"}}
+    end
+
+    Step1 --> Step2
+    Step2 --> E[["✔️ QAT Implementation"]]
+    Step3 --> Step4
+    Step4 --> I[/"❌ Optimized Smol LLM"/]
 ```
 
 **Legend:**  
