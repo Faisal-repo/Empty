@@ -83,6 +83,18 @@ graph TD;
 
 ---
 
+
+## 📚 Metrices
+
+| Model  | Accuracy | Fine-tuned | Top-5 Accuracy | Top-1 Accuracy | Link |
+|--------|----------|------------|---------------|---------------|------|
+| Resnet-18 | 81      | no        |           |         | [Resnet-18 Link](https://github.com/Faisal-repo/Empty/blob/main/QAT%20test%20NodeBooks/resnet-18_pytorch-lighting_with_fine-tune.ipynb) |
+| Model B | 82%      | No         | 92%           | 82%           | [Model B Link](https://example.com/modelB) |
+| Model C | 88%      | Yes        | 96%           | 88%           | [Model C Link](https://example.com/modelC) |
+| Model D | 80%      | No         | 90%           | 80%           | [Model D Link](https://example.com/modelD) |
+
+
+
 ## 📜 License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
